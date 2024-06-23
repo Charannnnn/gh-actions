@@ -1,13 +1,13 @@
-name: My First Workflow
+name: Greetings Workflow
 on: 
   workflow_dispatch
 jobs: 
-  first-job:
-    name: My first job on gh actions
+  greet-coders:
+    name: Job to greets authors
     runs-on: ubuntu-latest
     steps:
       - name:  Print greeting
-        run: echo "Hello, This is my first job on gh actions"
+        run: echo "Hello, gh-actions coders!"
       - name: Print bye
-        run: echo "Yayyy! My first job is completed successfully."
+        run: echo "Bye, gh-actions coders!"
     
