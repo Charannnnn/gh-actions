@@ -1,0 +1,13 @@
+name: My First Workflow
+on: 
+  workflow_dispatch
+jobs: 
+  first-job:
+    name: My first job on gh actions
+    runs-on: ubuntu-latest
+    steps:
+      - name:  Print greeting
+        run: echo "Hello, This is my first job on gh actions"
+      - name: Print bye
+        run: echo "Yayyy! My first job is completed successfully."
+    
